@@ -1,50 +1,127 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-  <title>Uploader</title>
+  <title>The Campfire</title>
   <meta charset="utf-8"/>
   <link rel="stylesheet" type="text/css" href="main.css">
+
+
+
+
+
+
+
+
+
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #2D2D30;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+</style>
+
 </head>
   
 <body>
+
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="news/404.html">News</a></li>
+		<li><a href="404.html">Blog</a></li>
+		<li><a href="https://discord.gg/696969">Server</a></li>
+		<li><a href="quotes.html">Quotes</a></li>
+		<li><a href="gallery/menu.html">Gallery</a></li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Podcasts</a>
+			<div class="dropdown-content">
+				<a href="vids/404.html">Podcast Ep. #1</a>
+				<a href="vids/404.html">Podcast Ep. #2</a>
+				<a href="vids/404.html">Podcast Ep. #3</a>
+				<a href="vids/404.html">Podcast Ep. #4</a>
+				<a href="vids/404.html">Podcast Ep. #5</a>
+				<a href="vids/404.html">Podcast Ep. #6</a>
+			</div>
+		</li>
+	</ul>
 
   <div class="container">
   
     <div class="nav">
     
-  <h2>Useful</h2>
+  <h2>The</h2>
   
   <ul>
-  <li><a href="http://codecademy.com">Browse All Images</a></li>
-  <li><a href="https://www.reddit.com/r/programming">Browse By Tags</a></li>
-  <li><a href="https://aws.amazon.com/">Upload</a></li>
+  <li><a href="https://www.youtube.com/watch?v=S52BM7Y6h5M">camp</a></li>
+  <li><a href="https://www.youtube.com/watch?v=6E5m_XtCX3c">fire</a></li>
+  <li><a href="https://www.youtube.com/watch?v=RZhGITHIbns">camp</a></li>
+  <li><a href="https://www.youtube.com/watch?v=I-sH53vXP2A">fire</a></li>
 </ul>
   
   </div>
     
  <div class="main">
     
-  <h1>
-    Upload an Image
+  <h1 style="color:#FFFFFF">
+    Campfire
   </h1>
 
-  <h3>
-    The simple and easy image uploader.
+  <h3 style="color:#FFFFFF">
+    ~Discord's finest.
   </h3>
   
   <p>
-Max Filesize: None!
+Who here /website/ ?
     </p>
-	  <p>
-Accepted files: .jpg,.jpeg,.png,.gif,.apng,.tiff,.tif,.bmp,.pdf,.xcf,.webp
-	  </p>
-      <h4>
-<input type="file" id="global-files-button" class="nodisplay" name="files[]" multiple="" accept=".jpg,.jpeg,.png,.gif,.apng,.tiff,.tif,.bmp,.pdf,.xcf,.webp">
-	
-	<label class="browse-button" for="global-files-button">browse images to upload</label>
-  </h4>
-  
-
+  <p>
+  	Shoutouts to epicmealtime
+  </p>
 
   </div>
   </div>
